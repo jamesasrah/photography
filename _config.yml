@@ -5,17 +5,15 @@ image_thumbs_loc: "/images/thumbs"
 google_analytics: "UA-46465113-2"
 
 # UI configs
-title: "Photography by Ram Patra"
+title: "my creation"
 subtitle: "See the world through my eyes!"
-author: "Ram Patra"
+author: "Michelle Lukman"
 header:
- title: "Photography"
- subtitle: "by Ram Patra"
+ title: "Golden"
+ subtitle: "by Michelle Lukman"
 footer:
- name: "Hey there, my name is Ram"
- bio: "I am a developer and a tech aficionado from India. Love making teeny tiny apps solving tiny problems in life and now learning photography."
- github: "Want a website like this for yourself for free? Just <a href=\"https://github.com/ramswaroop/photography\">fork me on github</a> ;)"
-web_design: "AJ"
+ name: "Hey there, my name is Michelle"
+ bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
 social_urls:
   facebook: "https://www.facebook.com/ramswaroop"
   twitter: "https://www.twitter.com/ramswarooppatra"
