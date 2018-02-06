@@ -36,9 +36,9 @@
 	
 }
 .text-faded{
-	color: gray;
+	
 	font-size:15rem;
-	font-weight:bold;
+	
 }
 #banner hr {
   margin-top: 30px;
@@ -46,7 +46,9 @@
 }
 
 #banner h1 {
-  font-size: 2rem;
+  font-size: 4rem;
+  color: gray;
+  font-weight:bold;
 }
 
 #banner p {
