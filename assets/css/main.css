@@ -19,11 +19,11 @@
             height: 50%;
             vertical-align: top;    
 	}
-	#banner {
-	  background-image: url("{{ site.baseurl }}{{ site.image_thumbs_loc }}/head.jpg");
-	  background-position: center center;
+	#banner { 
+	  background: url(images/head.jpg) no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
+	  -o-background-size: cover;
 	  background-size: cover;
 	}
 /* Reset */
