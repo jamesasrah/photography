@@ -16,14 +16,11 @@ layout: default
     </header>
 	
 	<!--start-->
-	<div id="start">
+	<!-- <div id="start">
 	
 		<img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/head.jpg" class="HeadImg" >
-	</div>
-	
-    <!-- Main -->
-    <>
-    <div class="masthead text-center text-white d-flex">
+	</div> -->
+	<div class="masthead text-center text-white d-flex">
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
@@ -39,6 +36,19 @@ layout: default
         </div>
       </div>
     </div>
+    <!-- Main -->
+    <div id="main">
+        {% for image in site.static_files %}
+        {% if image.path contains 'fulls' %}
+        <article class="thumb">
+            <a href="{{ site.baseurl }}{{ site.image_fulls_loc }}/{{ image.name }}" class="image">
+                <img src="{{ site.baseurl }}{{ site.image_thumbs_loc }}/{{ image.name }}" alt=""
+                     data-name="{{ image.name }}"/></a>
+            <!--<h2></h2>
+            <p></p>-->
+        </article>
+        {% endif %}
+        {% endfor %}
     </div>
 
     <!-- Footer -->
