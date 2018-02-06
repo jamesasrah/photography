@@ -19,7 +19,7 @@
             height: 50%;
             vertical-align: top;    
 	}
-	div.masthead {
+	.masthead {
 	  padding-top: 10rem;
 	  padding-bottom: calc(10rem - 56px);
 	  background-image: url("../image/head/head.jpg");
@@ -30,39 +30,39 @@
 	  background-size: cover;
 	}
 
-	div.masthead hr {
+	.masthead hr {
 	  margin-top: 30px;
 	  margin-bottom: 30px;
 	}
 
-	div.masthead h1 {
+	.masthead h1 {
 	  font-size: 2rem;
 	}
 
-	div.masthead p {
+	.masthead p {
 	  font-weight: 300;
 	}
 
 	@media (min-width: 768px) {
-	  div.masthead p {
+	  .masthead p {
 		font-size: 1.15rem;
 	  }
 	}
 
 	@media (min-width: 992px) {
-	  div.masthead {
+	  .masthead {
 		height: 100vh;
 		min-height: 650px;
 		padding-top: 0;
 		padding-bottom: 0;
 	  }
-	  div.masthead h1 {
+	  .masthead h1 {
 		font-size: 3rem;
 	  }
 	}
 
 	@media (min-width: 1200px) {
-	  div.masthead h1 {
+	  .masthead h1 {
 		font-size: 4rem;
 	  }
 	}
