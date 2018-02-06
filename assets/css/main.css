@@ -19,6 +19,9 @@
             height: 50%;
             vertical-align: top;    
 	}
+	#row{
+		border-left: 20px;
+	}
 #banner{
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
